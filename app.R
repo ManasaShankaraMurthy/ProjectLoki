@@ -10,7 +10,7 @@ ui <- fluidPage(
             sliderInput("priceInput", "Price", 0, 100, c(20, 40), pre = "$"),
             sliderInput("SweetnessInput","Sweetness",0,10, c(0,10)),
             radioButtons("typeInput", "Product type",
-                         choices =sort(unique(Loki$Type)),
+                         choices =sort(c("WINE","BEER","SPIRITS")),
                          selected = "WINE"),
             #checkboxInput("SweetnessInput","Sweetness"),
             
