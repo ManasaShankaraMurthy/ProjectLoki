@@ -1,7 +1,7 @@
 library(shiny)
 library(ggplot2)
 library(dplyr)
-
+library(devtools)
 Loki <- read.csv("https://raw.githubusercontent.com/ManasaShankaraMurthy/ProjectLoki/main/Loki-data.csv")
 
 ui <- fluidPage(
