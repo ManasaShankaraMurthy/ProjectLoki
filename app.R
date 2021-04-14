@@ -2,7 +2,7 @@ library(shiny)
 library(ggplot2)
 library(dplyr)
 
-Loki <- read.csv("C:/Users/manas/Documents/Final/Loki-data.csv", stringsAsFactors = FALSE)
+Loki <- read.csv("https://raw.githubusercontent.com/ManasaShankaraMurthy/ProjectLoki/main/Loki-data.csv", stringsAsFactors = FALSE)
 
 ui <- fluidPage(
     titlePanel("MadhuLoka Liquor Store prices"),
