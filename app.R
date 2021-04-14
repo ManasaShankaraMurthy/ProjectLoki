@@ -7,7 +7,7 @@ ui <- fluidPage(
     titlePanel("MadhuLoka Liquor Store prices"),
     sidebarLayout(
         sidebarPanel(
-            sliderInput("priceInput", "Price", 0, 100, c(20, 40), pre = "$"),
+            sliderInput("priceInput", "Price", 0, 200, c(0, 100), pre = "$"),
             sliderInput("SweetnessInput","Sweetness",0,10, c(0,10)),
             radioButtons("typeInput", "Product type",
                          choices =sort(c("WINE","BEER","SPIRITS")),
