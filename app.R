@@ -10,7 +10,7 @@ ui <- fluidPage(
   sidebarLayout(
     sidebarPanel(
       h3(
-        "This app will help you find the right drink for a right price from the country you prefer"
+        "This app will help you find your favourite drink for a right price from the country you prefer with necessary content of Acohol"
       ),
       br(),
       sliderInput("priceInput", "Price", 0, 100, c(25, 40), pre = "$"),
