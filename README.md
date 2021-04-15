@@ -2,7 +2,7 @@
 (Shiny App for showing the percentage of Alcohol in each drink)
 
 
-This app is an interactive application which shows the percentage of Alcohol in each beverage based on the selection of the Price,Sweetness Level and Country
+This app is an interactive application which shows the Percentage of Alcohol in your favourite Beverage based on the selection of the price,type and the country of its origin.
 
 Required Apps to run the Project successfully are
 
