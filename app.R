@@ -6,7 +6,7 @@ Loki <- read.csv("https://raw.githubusercontent.com/ManasaShankaraMurthy/Project
 ui <- fluidPage(
   
   
-  titlePanel("Loki Liquor Store prices"),
+  titlePanel("Loki Liquor Store Prices"),
   sidebarLayout(
     sidebarPanel(
       h3(
