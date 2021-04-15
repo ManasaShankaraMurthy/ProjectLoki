@@ -2,7 +2,6 @@ require(shiny)
 require(ggplot2)
 require(dplyr)
 Loki <- read.csv("https://raw.githubusercontent.com/ManasaShankaraMurthy/ProjectLoki/main/Loki-data.csv")
-Loki <- read.csv("C:/Users/manas/Documents/Check/Try/App/Loki-data.csv", stringsAsFactors = FALSE)
 
 ui <- fluidPage(
   
