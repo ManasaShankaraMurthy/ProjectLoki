@@ -12,6 +12,8 @@ Required Apps to run the Project successfully are
 
 3.dplyr
 
+Run the command: runGitHub("ProjectLoki","ManasaShankaraMurthy","main")
+
 
 User Inputs 
 1. The price range should be selected
@@ -21,3 +23,6 @@ User Inputs
 3. The checkbox input for the country needs to be selected and the necessary country from where the drink is required needs to be selected
 
 ![image](https://user-images.githubusercontent.com/81968681/114887160-784a6300-9e08-11eb-952a-0eade2e2736d.png)
+
+The download Button enables to download the csv file with the table to decide on your favourite drink
+
