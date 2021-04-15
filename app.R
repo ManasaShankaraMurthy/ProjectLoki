@@ -14,7 +14,6 @@ ui <- fluidPage(
       ),
       br(),
       sliderInput("priceInput", "Price", 0, 100, c(25, 40), pre = "$"),
-      sliderInput("SweetnessInput","Sweetness",0,10, c(0,10)),
       uiOutput("typeSelectOutput"),
       checkboxInput("filterCountry", "Filter by country", FALSE),
       conditionalPanel(
