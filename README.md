@@ -26,3 +26,4 @@ User Inputs
 
 The download Button enables to download the csv file with the table to decide on your favourite drink
 
+![image](https://user-images.githubusercontent.com/81968681/114889916-d8da9f80-9e0a-11eb-8f94-57f0c1f8c487.png)
