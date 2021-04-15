@@ -12,7 +12,7 @@ Required Apps to run the Project successfully are
 
 3.dplyr
 
-Run the command: runGitHub("ProjectLoki","ManasaShankaraMurthy","main")
+Run the following command: runGitHub("ProjectLoki","ManasaShankaraMurthy","main")
 
 
 User Inputs 
